@@ -1,0 +1,164 @@
+.center {
+  margin-left: center;
+  margin-right: auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.typewriter h1 {
+  color: #956362;
+  
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  font-size: 3rem;
+  font-size: 5vw;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+   background-color: #F3f3f3;
+  padding: 20px;
+  
+  
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 90%
+  }
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+a:link /*unvisited*/ {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+	color: #683f4d;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+a:visited /*visited*/ {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+	color: #683f4d;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+a:hover /*mouseover*/ {
+	-webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+	color: #b18177 ;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+a:active /*brief select*/ {
+	-webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+	color: #b18177 ;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+
+.font3 {
+    color: #ACCAD8; /*#683f4d*/
+    text-align: center;
+    font-family: "arial";
+    font-size: 24px;
+}
+.menu { /*title*/
+	text-align: center;
+	color: #b18177;
+    font-family: "arial";
+    letter-spacing: 12px;
+	font-size: 60px;
+  
+  
+}
+.submenu { /*subtitles for articles*/
+	text-align: center;
+  width: 100%;
+	color: #b18177;
+	font-family: "arial";
+	letter-spacing: 12px;
+	font-size: 30px;
+  
+  
+
+    
+}
+.opacity {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.font5{ /*TEXT COLOURING*/
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: #956362; }
+    50% { color: #c9c9c9; }
+    100% { color: #956362; }
+}
+@-moz-keyframes color-change {
+    0% { color: #956362; }
+    50% { color: #c9c9c9; }
+    100% { color: #956362; }
+}
+@-ms-keyframes color-change {
+    0% { color: #956362; }
+    50% { color: #c9c9c9; }
+    100% { color: #956362; }
+}
+@-o-keyframes color-change {
+    0% { color: #956362; }
+    50% { color: #c9c9c9d; }
+    100% { color: #956362; }
+}
+@keyframes color-change {
+    0% { color: #956362; }
+    50% { color: #F3f3f3; }
+    100% { color: #956362; }
+}
+

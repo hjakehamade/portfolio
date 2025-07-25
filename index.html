@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>portfolio - jake hamade</title>
+	<link rel="stylesheet" href="stylesheet2.css">
+
+<meta name="viewport" 
+      content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  
+  <style>
+  canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+  </style>
+  
+  
+</head>
+  <body>
+    <table width="100%" height="100%" border="0" class="center" margin="0">
+      <tr>
+	      <td>
+           <table width="100%" height="10%" border="0" class="center" bgcolor= "#F3f3f3" margin="0">
+             <div class="menu"></div>
+            <div class="container" bgcolor= "#c9c9c9">
+              <div class="typewriter" ><h1>
+                
+                jake hamade portfolio
+                
+                <div class="submenu"></div>
+            	<a href="menu.html">[e n t e r]</a>
+                </h1>
+              </div>       
+          </div>
+          </table>
+        </td>
+        </tr>
+    </table>
+  </body>
+  
+    <script>
+		let shapes = [];
+		let colors = [];
+		let numShapes = 30;
+		let animationSpeed = 0.5;
+
+		function setup() {
+  createCanvas(windowWidth, windowHeight);
+  let color1 = color(random(255), random(255), random(255));
+  let color2 = color(random(255), random(255), random(255));
+  background(color1);
+  noStroke();
+
+  for (let i = 0; i < numShapes; i++) {
+    let c = lerpColor(color1, color2, random());
+    colors.push(c);
+    let shape = random(['rect', 'ellipse', 'triangle']);
+    let x = random(width);
+    let y = random(height);
+    let size = random(50, 900);
+    let speed = createVector(random(-animationSpeed, animationSpeed), random(-animationSpeed, animationSpeed));
+    let rotationSpeed = random(1, 5);
+    let rotationDirection = random([-1, 1]);
+    shapes.push({ shape: shape, x: x, y: y, size: size, speed: speed, rotationSpeed: rotationSpeed, rotationDirection: rotationDirection });
+  }
+}
+
+function draw() {
+  let color1 = colors[0];
+  let color2 = colors[1];
+  let t = frameCount / 100;
+  let c = lerpColor(color1, color2, sin(t));
+  background(c);
+
+  for (let i = 0; i < numShapes; i++) {
+    fill(colors[i]);
+
+    let shapeData = shapes[i];
+    let shape = shapeData.shape;
+    let x = shapeData.x;
+    let y = shapeData.y;
+    let size = shapeData.size;
+    let speed = shapeData.speed;
+    let rotationSpeed = shapeData.rotationSpeed;
+    let rotationDirection = shapeData.rotationDirection;
+
+    push();
+    translate(x + size / 2, y + size / 2);
+    rotate(frameCount * rotationSpeed * rotationDirection / 500);
+    if (shape == 'rect') {
+      rect(-size / 2, -size / 2, size, size);
+    } else if (shape == 'ellipse') {
+      ellipse(0, 0, size, size);
+    } else if (shape == 'triangle') {
+      triangle(-size / 2, size / 2, size / 2, size / 2, 0, -size / 2);
+    }
+    pop();
+
+    shapeData.x += speed.x;
+    shapeData.y += speed.y;
+
+
+    if (shapeData.x < -size || shapeData.x > width) {
+      shapeData.speed.x *= -1;
+    }
+
+    if (shapeData.y < -size || shapeData.y > height) {
+      shapeData.speed.y *= -1;
+    }
+  }
+}
+
+
+		function windowResized() {
+			resizeCanvas(windowWidth, windowHeight);
+		}
+	</script>
+  
+  
+  
+</html>

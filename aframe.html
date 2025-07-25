@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+  </head>
+  
+  <body>
+    <a-scene>
+    <a-camera>
+    </a-camera>
+    
+    <a-entity>
+        <a-entity animation="property: scale; 
+                           dir: alternate;
+                            from: 2 2 2;
+                            to: 2 1 2; 
+                           loop: true; 
+                           dur: 500;
+                            easing: easeInOutCubic;
+                           autoplay: true">
+        <a-box 
+           position="0 2 -1" 
+           rotation="0 90 0" 
+           material="src: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXnjj_2Nyq5EWDUt2VNHeZs2kTQn7DkaZ7w&usqp=CAU"
+               >
+        </a-box>
+      </a-entity>
+    </a-entity>
+      <a-circle position="0 -1 -4" 
+                rotation="-90 0 0" 
+                radius="50" 
+                color="#60a24b"
+                material="src: https://upload.wikimedia.org/wikipedia/commons/7/7e/Cirrus_panorama.jpg">
+      </a-circle>
+      <a-sky color="#85f6ff"
+             material="src: https://jakehamade.neocities.org/images/skeleton6.jpg"
+             
+             ></a-sky>
+
+      
+    </a-scene> 
+    
+  </body>
+</html>

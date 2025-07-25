@@ -1,0 +1,89 @@
+<html>
+<head>
+
+	<title>gallery - jake hamade</title>
+	<link rel="stylesheet" href="stylesheet.css">
+
+<p class="font1">
+			  
+			   <li2><a href="gallery.html">GALLERY</a></li2>
+			  
+			  <li2><a href="about.html">about</a></li2>
+					<li2 style="float:left"><a class="active" href="menu.html">home</a></li2>
+		</p>
+  
+  <br>
+
+<ul2>
+</ul2>
+
+<hr>
+
+
+  
+<style>
+.mySlides1 {
+     display: none;
+}   
+  .mySlides2 {
+     display: none;
+}  
+  .mySlides3 {
+     display: none;
+}  
+</style>
+  
+</head>
+
+<body>
+
+	<div class="submenu">
+	<h1 class="name">beware of dog</h1>
+	
+	<div class="box">
+	<p> <img src="image" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"title, date</p>
+	</div>
+
+<br>
+
+
+
+	
+    
+<script>
+var slideIndex = [1,1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+showDivs(1, 0);
+showDivs(1, 1);
+showDivs(1, 2);
+showDivs(1, 3);
+showDivs(1, 4);
+showDivs(1, 5);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+  </div>
+</body>
+
+
+<center>
+<hr>
+
+	<a href="menu.html">home</a>
+</center>
+</html>

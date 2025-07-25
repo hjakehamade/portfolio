@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>portfolio - jake hamade</title>
+	<link rel="stylesheet" href="stylesheet2.css">
+
+<meta name="viewport" 
+      content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0">
+ <style>
+body {
+  background-image: url("https://generative-placeholders.glitch.me/image?width=600&height=600&style=cellular-automata&cells=5");
+}
+</style> 
+  
+  
+</head>
+  <body>
+    <table width="100%" height="100%" border="0" class="center" margin="0">
+      <tr>
+	      <td>
+           <table width="100%" height="10%" border="0" class="center" bgcolor= "#F3f3f3" margin="0">
+             <div class="menu"></div>
+            <div class="container" bgcolor= "#c9c9c9">
+              <div class="typewriter" ><h1>
+                
+                jake hamade portfolio
+                
+                <div class="submenu"></div>
+            	<a href="menu.html">[e n t e r]</a>
+                </h1>
+              </div>       
+          </div>
+          </table>
+        </td>
+        </tr>
+    </table>
+  </body>
+</html>

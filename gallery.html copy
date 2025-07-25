@@ -1,0 +1,255 @@
+<html>
+<head>
+
+	<title>gallery - jake hamade</title>
+	<link rel="stylesheet" href="stylesheet.css">
+
+
+<ul>
+		<p class="font1">
+			  
+			   <li><a href="gallery.html"
+              >GALLERY</a></li>
+			  
+			  <li><a href="about.html">about</a></li>
+					<li style="float:left">
+          <a class="active" href="menu.html">home</a></li>
+			
+		</p>
+</ul>
+
+<hr>
+
+
+</head>
+
+<body>
+
+
+
+<div class="submenu">
+	<h1 class="name">watercolour image extrapolations</h1>
+<div class="box">
+		<p><img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting1.jpg?v=1674159404408" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting2.jpg?v=1674159404949" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting3.jpeg?v=1674761216974" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting4.jpg?v=1674159405390" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting5.jpg?v=1674159405862" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting6.jpg?v=1674159406373" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", April 14th 2022</p>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="submenu">
+	<h1 class="name">desire path studies</h1>
+	<p class="font2">mamiya 120 b/w film with intentional destruction via film soup</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_1.jpg?v=1674159433109" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_2.jpg?v=1674159434755" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_3.jpg?v=1674159436430" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_4.jpg?v=1674159437977" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_5.jpg?v=1674159439985" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_6.jpg?v=1674159441966" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", January 10th 2022</p>
+	
+
+
+
+
+<div class="submenu">
+	<h1 class="name">phytosanitary</h1>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_phytosanitary1.jpg?v=1674159431554" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", October 27th 2021</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_phytosanitary2.jpg?v=1674159431863" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", October 27th 2021</p>
+	</div>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_phytosanitary3.jpeg?v=1674763418625" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", October 27th 2021</p>
+	</div>
+
+
+
+
+
+
+<div class="submenu">
+	<h1 class="name">caffenol processing</h1>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-1.jpg?v=1674159472925" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 19th 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-2.jpg?v=1674159474944" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 19th 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-3.jpg?v=1674159476921" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 19th 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-4.jpg?v=1674159479278" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 19th 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-5.jpeg?v=1674762391459" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 19th 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-6.jpg?v=1674159479797" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 23rd 2020</p>
+<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Untitled-7.jpg?v=1674159480441" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", June 23rd 2020</p>
+
+
+
+
+	<div class="submenu">
+	<h1 class="name">reactionary</h1>
+	
+	<div class="box">
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Fuentes.jpg?v=1674159430776" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"Fuentes hears the whistle, can you?", December 2nd 2019</p>
+	</div>
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/Fuentes2.jpg?v=1674159431198" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"Fuentes hears the whistle, can you?", December 2nd 2019, Full exhibition</p>
+	</div>
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/soyboys.jpg?v=1674159463939" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"soyboys", January 28th 2019</p>
+	</div>
+	<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/blackpill.jpg?v=1674159407435" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"blackpill", January 24th 2019</p>
+	</div>
+	<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/internetphenomena.jpeg?v=1674762320954" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", February 6th 2019</p>
+	</div>
+	<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/incels.jpg?v=1674159442778" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", February 9th 2019</p>
+	</div>
+
+
+
+	<div class="submenu">
+	<h1 class="name">eulogy series</h1>
+		
+    <div class="box">
+    <p> 
+		<img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/eulogy.gif?v=1674762510597" 
+         class="imgstyle" 
+         width="600px">
+		</img>
+    </p>
+  
+	<p class="font2">"eulogy part 1", Dec 20th 2018</p>
+	</div>
+	<p class="font2">
+	</p>
+	
+
+
+
+
+	
+	
+	<div class="submenu">
+	<h1 class="name">misc</h1>
+	
+	
+	<div class="box">
+		<p class="font2">
+      
+    </p>
+	<a href="alt process (2018).html">alt process (2019)</a>
+			<p class="font2">
+        
+    </p>
+	<a href="https://limitedexpression.neocities.org/">limited expression (2019)</a>
+	<p class="font2">
+  </p>
+	
+	</div>
+
+	<div class="box">
+		<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/koi.jpg?v=1674159444267" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", December 21st 2017</p>
+	</div>
+
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/kois.jpg?v=1674159446082" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", Sept 19th 2016</p>
+	</div>
+	
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/trees.jpg?v=1674159471102" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", November 14th 2018</p>
+	</div>
+	
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton1.jpg?v=1674159451525" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton2.jpg?v=1674159453636" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton3.jpg?v=1674159455602" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton4.jpg?v=1674159457050" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+	
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton5.jpeg?v=1674762665623" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+	
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton6.jpg?v=1674159459113" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+	
+	<p> <img src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/skeleton7.jpg?v=1674159461146" class="imgstyle" width= "800px"> </p>
+	<p class="font2">"untitled", 2016</p>
+	</div>
+
+
+
+</body>
+
+<center>
+<hr>
+
+	<a href="menu.html">home</a></p>
+</center>

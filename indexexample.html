@@ -1,0 +1,75 @@
+<html>
+<body>
+  
+  
+<!/ This code right here codes for one slideshow, defined as "myslides1", 
+  you can replace these images with your own in their respective places. 
+  If you have more images, simply add another img tag.  Button codes for the left and right buttons
+
+<div>
+<h1 class="name">extrapolations</h1>
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting1.jpg?v=1674159404408" style="width:100%">
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting2.jpg?v=1674159404949" style="width:100%">
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting3.jpeg?v=1674761216974" style="width:100%">
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting4.jpg?v=1674159405390" style="width:100%">
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting5.jpg?v=1674159405862" style="width:100%">
+  <img class="mySlides1" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/advpainting6.jpg?v=1674159406373" style="width:100%">
+  <button onclick="plusDivs(-1, 0)">&#10094;</button>
+  <button onclick="plusDivs(1, 0)">&#10095;</button>
+</div>
+  
+<br>
+  
+  
+<!/ This code right here codes for one slideshow, defined as "myslides2", 
+  you can replace these images with your own in their respective places. 
+  note the class is "myslides2" rather than "myslides1", and that the button tag's onclick class
+  has a different number than the former slideshow. -1, 1 instead of 1, 0
+  the second number in that sequence is tied to the following javascript at the end.
+  
+
+<div>
+<h1 class="name">desire path studies</h1>
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_1.jpg?v=1674159433109" style="width:100%">
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_2.jpg?v=1674159434755" style="width:100%">
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_3.jpg?v=1674159436430" style="width:100%">
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_4.jpg?v=1674159437977" style="width:100%">
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_5.jpg?v=1674159439985" style="width:100%">
+  <img class="mySlides2" src="https://cdn.glitch.global/b7327be0-ae5c-4d51-a093-a10a13eb13bc/hhamade_Staging_Action_final_6.jpg?v=1674159441966" style="width:100%">
+  <button onclick="plusDivs(-1, 1)">&#10094;</button>
+  <button onclick="plusDivs(1, 1)">&#10095;</button>
+</div>
+  
+<br>
+  
+  
+<! this is the javascript that defines the slideshow actions. "myslides1" and "myslides2" are in this example. to add more,
+  add another 1 to the slideIndex as well as another showDivs. in this case, the next one for "myslides6" would be showDivs 1, 5.
+  then in your html, add another img class as "myslides6" with the buttons coding onclick="plusdivs -1, 5" and 1, 5>
+  
+<script>
+var slideIndex = [1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
+showDivs(1, 0);
+showDivs(1, 1);
+showDivs(1, 2);
+showDivs(1, 3);
+showDivs(1, 4);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
